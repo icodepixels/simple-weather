@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
 export const useCityStore = defineStore('city', () => {
-  const apiKey = '6e4b41231e26caed5109552a1063f847'
+  const apiKey = '9170e0e85794088df319259526c55afd'
 
   // Define default cities
   const cities = ref([
